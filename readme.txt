@@ -44,6 +44,8 @@ Inicialmente foi utilizado um arduino mega 2560 para realizar o processamento e 
 
 Segue abaixo o esquemático representando o circuito implementado:
 ![](http://i.imgur.com/yawfk78.png)
+![](http://i.imgur.com/isOR4jj.jpg)
+![](http://i.imgur.com/eN0YeEw.jpg)
 http://schematics.com/project/trabalho-final-24477/
 
 ## Logico
@@ -57,7 +59,7 @@ O LCD RGB Backlight imprime em sua tela a seguinte mensagem - "Temperature: x" s
 * rgb_lcd.cpp / rgb_lcd.h: contém as funções e valores relacionados ao dispositivo LCD RGB Backlight
 * rotary_angle_sensor.cpp / rotary_angle_sensor.h: contém as funções e valores relacionados ao dispositivo Grove - Rotary Angle Sensor.
 
-Para a execução do programa basta copiar os arquivos deste diretório gitHub numa mesma pasta e abrir o projeto "projetoFinalComRotary.ino".
+Para a execução do programa basta copiar os arquivos da pasta "projetoFinalComRotary" e abrir o projeto "projetoFinalComRotary.ino".
 
 # Conclusão
 É possível realizar um controle preciso de atuadores como o motor de passos e a ventoinha, através do processamento pelo arduino dos dados obtidos pelos sensores de temperatura e rotação, sendo que parte do processo pode ser manipulado mecanicamente com o controle sendo realizado pelo programa.
