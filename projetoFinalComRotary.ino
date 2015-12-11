@@ -1,3 +1,5 @@
+// João Souza 414298 e Alexandre Rocha 321451
+
 #include <Wire.h>
 #include "rgb_lcd.h"
 #include <Stepper.h>
